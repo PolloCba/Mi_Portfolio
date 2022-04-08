@@ -1,0 +1,102 @@
+.seccion__proyectos {
+    background: rgb(220, 220, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8%;
+}
+
+.proyectos__titulo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 4% 0;
+}
+
+.proyectos__titulo--nombre{
+    font-size: 4vw;
+}
+
+.proyectos__titulo--icono{
+    width: 8%;
+    padding: 0 0 0 5%;
+}
+
+.proyectos__caja{
+    display: flex;
+    padding: 1%;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 2px 2px 5px #222121;
+    margin: 20px;
+    background-color: darkgrey;
+}
+
+.proyectos__cajaR{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1%;
+    width: 90%;
+    border-radius: 10px;
+    border: 1px solid;
+    box-shadow: 2px 2px 5px #222121;
+    background-color: darkgrey;
+}
+
+.proyectos__imagen{
+    width: 25%;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid;
+    margin: 10px;
+}
+
+.proyecto__caja--descripcion{
+    margin-left: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.proyecto__caja--descripcionR{
+    margin-right: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.proyectos__nombre{
+    font-size: 1.5vw;
+}
+
+.proyectos__texto{
+    font-size: 1.2vw;
+}
+
+.proyectos__lista{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.proyectos__boton{
+    width: 35%;
+}
+
+.proyectos__link{
+    font-size: 1.2vw;
+    padding: 2%;
+    border: 1px solid;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #222121;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(220, 220, 220);
+}

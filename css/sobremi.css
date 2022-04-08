@@ -1,0 +1,41 @@
+.seccion__sobremi{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2%;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(220, 220, 220);
+}
+
+.sobremi{
+    display: flex;
+    padding: 10% 0 0% 5%;
+}
+
+.sobremi__titulo{
+    font-size: 4vw;
+}
+
+.sobremi__descripcion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1% 0 3% 10%;
+    width: 80%;
+}
+
+.sobremi__parrafo{
+    font-size: 1.9vw;
+    line-height: 1.8rem;
+}
+
+.sobremi__firma{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 0 2% 0;
+}
+
+.sobremi__firma--imagen{
+    width: 12%;
+    padding: 1%;
+    margin-right: 10%;
+}

@@ -1,0 +1,9 @@
+.footer{
+    background-color: rgb(220, 220, 220);
+}
+
+.footer__descripcion{
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.5rem;
+}

@@ -1,0 +1,23 @@
+.cabecera {
+    width: 100%;
+    background-color: rgb(220, 220, 220);
+    position: fixed;
+    border-radius: 0 0 10px 10px;
+    border: 1px solid;
+    box-shadow: rgb(34 33 33) 2px 2px 5px;
+}
+
+.cabecera__icono{
+   width: 1.5%;
+   margin-right: 15px;
+}
+
+.cabecera__nombre {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 1rem;
+}
