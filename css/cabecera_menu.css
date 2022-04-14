@@ -8,7 +8,7 @@
 .menu__lista {
     display: flex;
     list-style: none;
-    padding-right: 2%;
+    padding-right: 15px;
 }
 
 .menu__link{
