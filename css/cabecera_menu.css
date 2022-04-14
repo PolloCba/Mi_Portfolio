@@ -36,6 +36,7 @@
     }
     .menu__lista{
         margin: 0;
+        padding: 0;
     }
     .menu__link{
         padding: 0 4px;
@@ -53,6 +54,7 @@
     }
     .menu__lista{
         margin: 0;
+        padding: 0;
     }
     .menu__link{
         padding: 0 15px;
