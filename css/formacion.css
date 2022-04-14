@@ -67,6 +67,7 @@
 @media screen and (max-width: 480px){
     .seccion__formacion{
         padding: 0;
+        margin-top: 25%;
     }
     .academica__caja--subtitulo{
         padding: 0;

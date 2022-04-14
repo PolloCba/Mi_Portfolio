@@ -102,6 +102,9 @@
 }
 
 @media screen and (max-width: 480px){
+    .seccion__proyectos{
+        margin-top: 15%;
+    }
     .proyectos__titulo--nombre{
         font-size: 8vw;
     }

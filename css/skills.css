@@ -80,6 +80,9 @@
 }
 
 @media screen and (max-width: 480px){
+    .seccion__skills{
+        margin-top: 15%;
+    }
     .skills__titulo--nombre {
         font-size: 10vw;
     }

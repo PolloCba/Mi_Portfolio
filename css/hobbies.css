@@ -65,7 +65,10 @@
     padding: 5% 5% 5% 5%;
 }
 
-@media screen and (orientation: portrait) and (max-width: 480px){
+@media screen and (max-width: 480px){
+    .seccion__hobbies{
+        margin-top: 15%;
+    }
     .hobbies__titulo--nombre{
         font-size: 10vw;
     }

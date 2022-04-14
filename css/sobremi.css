@@ -41,7 +41,10 @@
 }
 
 @media screen and (max-width: 480px){
-.sobremi__parrafo {
+  .seccion__sobremi{
+      margin-top: 15%;
+  }
+  .sobremi__parrafo {
     font-size: 6vw;
     line-height: 1.8rem;
   }
