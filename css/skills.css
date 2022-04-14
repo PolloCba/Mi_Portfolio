@@ -78,3 +78,26 @@
     margin-top: 10%;
     background-color: rgb(220, 220, 220);
 }
+
+@media screen and (max-width: 480px){
+    .skills__titulo--nombre {
+        font-size: 10vw;
+    }
+    .skills__lista{
+        width: calc((100% / 2) - (16px + 2px));
+    }
+
+    .lista__titulo{
+        font-size: 4vw;
+    }
+
+    .skills__lista--icono {
+        font-size: 20vw;
+    }
+    .skills__nombre {
+        font-size: 5vw;
+    }
+    .skills__certificados{
+        font-size: 4vw;
+    }
+}

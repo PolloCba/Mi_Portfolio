@@ -21,3 +21,12 @@
     padding: 10px;
     font-size: 1rem;
 }
+
+@media screen and (max-width: 480px){
+    .cabecera__nombre{
+        font-size: 8px;
+    }
+    .cabecera__icono{
+        width: 8px;
+    }
+}

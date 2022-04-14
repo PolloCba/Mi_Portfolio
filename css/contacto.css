@@ -45,3 +45,13 @@
     width: 30%;
     padding: 1.5%;
 }
+
+@media screen and (max-width: 480px){
+    .seccion__contacto{
+        display: inline-block;
+    }
+    .contacto__boton{
+        width: 40%;
+        font-size: 3vw;
+    }
+}

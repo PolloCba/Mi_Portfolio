@@ -80,3 +80,31 @@
 .presentacion__redes--icono{
     width: 30%
 }
+
+@media screen and (max-width: 480px){
+    .seccion__presentacion{
+        background: url(../imagenes/abstract-background-with-red-lines.jpg);
+        background-size: contain;
+        background-repeat: round;
+    }
+    .presentacion__foto{
+        padding: 12% 2% 2% 2%;
+    }
+    .foto{
+        width: 140px;
+        height: 140px;
+    }
+    .presentacion{
+        margin-left: 1%;
+        padding-top: 5%;
+    }
+    .presentacion__redes{
+        margin-top: 40px;
+    }
+    .presentacion__redes--link{
+        font-size: 2vw;
+    }
+    .presentacion__redes--icono{
+        width: 40%;
+    }
+}

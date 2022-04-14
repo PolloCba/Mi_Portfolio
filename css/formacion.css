@@ -63,3 +63,39 @@
     font-weight: bold;
     text-align: center;
 }
+
+@media screen and (max-width: 480px){
+    .seccion__formacion{
+        padding: 0;
+    }
+    .academica__caja--subtitulo{
+        padding: 0;
+    }
+    .formacion__titulo--nombre{
+        font-size: 6vw;
+        padding-bottom: 40px;
+    }
+    .formacion__titulo--icono{
+        margin-bottom: 35px;
+    }
+    .formacion__menu{
+        margin: 0;
+    }
+    .formacion__contenido{
+        padding: 0;
+    }
+    .formacion__menu--lista{
+        width: calc(100% /3);
+    }
+    .formacion__menu--texto1{
+        font-size: 2vw;        
+    }
+    .formacion__menu--texto2{
+        font-size: 2vw;
+    }
+    .formacion__menu--icono {
+        width: 100%;
+        padding: 1%;
+        height: 120px;
+    }
+}

@@ -39,3 +39,16 @@
     padding: 1%;
     margin-right: 10%;
 }
+
+@media screen and (max-width: 480px){
+.sobremi__parrafo {
+    font-size: 6vw;
+    line-height: 1.8rem;
+  }
+  .sobremi__firma--imagen {
+    width: 25%;
+  }
+  .sobremi__titulo {
+    font-size: 6vw;
+  }
+}

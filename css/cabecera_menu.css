@@ -8,6 +8,7 @@
 .menu__lista {
     display: flex;
     list-style: none;
+    padding-right: 2%;
 }
 
 .menu__link{
@@ -25,4 +26,37 @@
 .menu__link:hover {
     text-decoration: underline;
     border-left: #252424;
+}
+
+@media screen and (max-width: 480px){
+    .cabecera__menu{
+        justify-content: center;
+        padding: 0;
+        height: 30px;
+    }
+    .menu__lista{
+        margin: 0;
+    }
+    .menu__link{
+        padding: 0 4px;
+        font-size: 7.7px;
+    }
+}
+
+@media screen and (min-width: 480px){
+    .cabecera__menu{
+        height: 2px;
+        padding: 20px;
+    }
+    .menu__navegacion{
+        height: auto;
+    }
+    .menu__lista{
+        margin: 0;
+    }
+    .menu__link{
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
 }

@@ -100,3 +100,34 @@
     text-decoration: none;
     background-color: rgb(220, 220, 220);
 }
+
+@media screen and (max-width: 480px){
+    .proyectos__titulo--nombre{
+        font-size: 8vw;
+    }
+    .proyectos__imagen{
+        height: 65px;
+        width: 80px;
+    }
+    .proyectos__nombre{
+        font-size: 3vw;
+    }
+    .proyectos__texto{
+        font-size: 2vw;
+    }
+    .proyectos__boton{
+        width: 50%;
+    }
+    .proyectos__link{
+        font-size: 3vw;
+    }
+    .proyecto__caja--descripcion{
+        margin-left: 10%;
+    }
+    .proyecto__caja--descripcionR{
+        margin-right: 10%;
+    }
+    .proyectos__lista{
+        margin-top: 5%;
+    }
+}
