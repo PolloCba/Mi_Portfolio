@@ -5,6 +5,10 @@
     height: 50px;
 }
 
+.menu__navegacion {
+    margin-right: 5%;
+}
+
 .menu__lista {
     display: flex;
     list-style: none;
