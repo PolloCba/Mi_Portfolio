@@ -44,6 +44,9 @@
     margin-top: 20px;
     width: 30%;
     padding: 1.5%;
+    background-color: darkblue;
+    color: white;
+    box-shadow: 2px 2px 5px #222121;
 }
 
 @media screen and (max-width: 480px){
