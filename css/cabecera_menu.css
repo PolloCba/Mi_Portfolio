@@ -3,6 +3,7 @@
     display: flex;
     justify-content: flex-end;
     height: 50px;
+    margin-bottom: 5px;
 }
 
 .menu__navegacion {
@@ -13,6 +14,8 @@
     display: flex;
     list-style: none;
     padding-right: 15px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .menu__link{
