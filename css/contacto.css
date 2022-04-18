@@ -49,6 +49,14 @@
     box-shadow: 2px 2px 5px #222121;
 }
 
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #806AB3;
+    padding-top: 20px;
+}
+
 @media screen and (max-width: 480px){
     .seccion__contacto{
         display: inline-block;
