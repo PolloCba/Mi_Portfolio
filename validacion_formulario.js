@@ -38,3 +38,10 @@ form.addEventListener("submit", e=>{
         parrafo.innerHTML = "Enviado";
     }
 });
+
+document.addEventListener('DOMContentLoaded', function(){
+    let formulario = document.getElementById('form');
+    formulario.addEventListener('submit', function() {
+      formulario.reset();
+    });
+  });
