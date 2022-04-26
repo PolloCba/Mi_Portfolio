@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .cabecera__menu {
     width: 100%;
     display: flex;
