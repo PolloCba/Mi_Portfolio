@@ -56,13 +56,11 @@
 
 .presentacion__redes {
   display: flex;
-  padding: 0 1%;
   margin-top: 80px;
 }
 
 .presentacion__redes--lista {
   list-style: none;
-  padding: 0 5% 0 0;
 }
 
 .presentacion__redes--link {
@@ -70,7 +68,6 @@
   align-items: center;
   gap: 6px;
   color: #252424;
-  font-size: 1.5vw;
   font-weight: 400;
   text-decoration: none;
   color: inherit;

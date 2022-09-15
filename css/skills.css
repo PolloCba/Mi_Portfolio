@@ -33,13 +33,11 @@
   height: 80%;
   display: flex;
   margin-top: 5%;
-  padding: 2% 2% 2% 2%;
   flex-wrap: wrap;
 }
 
 .skills__lista {
-  width: calc((100% / 3) - (16px + 2px));
-  height: 50%;
+  width: calc((100% / 5) - (16px + 2px));
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
