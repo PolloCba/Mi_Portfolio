@@ -684,38 +684,59 @@
               <input
                 class="contacto__input"
                 id="name"
+                name="name"
                 placeholder="Nombre"
                 type="text"
+                required
               />
               <input
                 class="contacto__input"
                 id="email"
+                name="email"
                 placeholder="E-mail"
                 type="email"
+                required
               />
               <input
                 class="contacto__input"
                 id="tel"
+                name="phone"
                 placeholder="Tel: (xxx) xxxx xxxx"
                 type="number"
+                required
               />
               <input
                 class="contacto__input"
                 id="asunto"
+                name="subject"
                 placeholder="Asunto"
                 type="text"
+                required
               />
               <textarea
                 class="contacto__input"
                 id="textarea"
+                name="message"
                 placeholder="Mensaje"
+                required
               ></textarea>
-              <button class="contacto__boton" type="submit" id="boton" disabled>
-                Enviar
-              </button>
+              <input
+                class="contacto__boton"
+                type="submit"
+                id="button"
+                value="Enviar"
+              />
               <p class="warnings" id="warnings"></p>
             </div>
           </form>
+          <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+          ></script>
+
+          <script type="text/javascript">
+            emailjs.init("NEYKGsN2giL1Djyt8");
+          </script>
         </div>
       </section>
     </main>
@@ -726,4 +747,29 @@
     <script src="./validacion_formulario.js"></script>
     <script src="./habilitar_boton.js"></script>
   </body>
+  <script>
+    const btn = document.getElementById("button");
+
+    document
+      .getElementById("form")
+      .addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        btn.value = "Enviando...";
+
+        const serviceID = "default_service";
+        const templateID = "template_ulyj4h7";
+
+        emailjs.sendForm(serviceID, templateID, this).then(
+          () => {
+            btn.value = "Enviar";
+            alert("Mensaje enviado correctamente");
+          },
+          (err) => {
+            btn.value = "Enviar";
+            alert(JSON.stringify(err));
+          }
+        );
+      });
+  </script>
 </html>
